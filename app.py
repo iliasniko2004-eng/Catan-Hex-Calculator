@@ -73,7 +73,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-excel_path = r"C:\Users\drave\Desktop\Catan\calculator_project.xlsx"
+excel_path = "calculator_project.xlsx"
 
 df = pd.read_excel(excel_path, sheet_name="App")
 
